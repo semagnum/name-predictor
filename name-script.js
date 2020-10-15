@@ -38,6 +38,7 @@ document.getElementById("nameSubmit").addEventListener("click", async function (
             console.log(json);
             if (json["gender"]) {
                 document.getElementById("gender-response").innerHTML = `${json["name"]} has a <strong>${percentage(json["probability"])}</strong> chance of being ${json["gender"]}${(countryCodes[json.country_id] ? ` in ${countryCodes[json.country_id]}.` : ".")}`;
+                document.getElementById("gender-panel").className = `jumbotron jumbotron-fluid ${json["gender"]}`;
             }
             else document.getElementById("gender-response").innerHTML = `There are no samples of the name ${json["name"]}${(countryCodes[json.country_id] ? ` in ${countryCodes[json.country_id]}.` : ".")}`;
         });
