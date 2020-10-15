@@ -1,0 +1,52 @@
+.btn {
+    vertical-align: top;
+    background-color: midnightblue;
+    border-color: midnightblue;
+}
+
+.form-control {
+    display: inline-block;
+    width: auto;
+    margin-bottom: 10px;
+}
+
+.col-lg-4 {
+    margin-bottom: 10px;
+}
+
+.jumbotron-fluid {
+    height: 100%;
+}
+
+#age-panel {
+    background-color: lightblue;
+}
+
+#gender-panel {
+    background-color: hotpink;
+}
+
+#country-panel {
+    background-color: lightgreen;
+}
+
+ol {
+    list-style-position: inside;
+    padding-inline-start: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background-color: azure;
+}
+
+.content {
+    flex: 1 0 auto;
+}
+
+#sticky-footer {
+    flex-shrink: none;
+}
